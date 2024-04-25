@@ -7,4 +7,11 @@ fn main() {
     let c:i32=3;
     let d:bool=true;
 
+    if true{
+        println!("Hello World from if block");
+    }  
+    else{
+        println!("Hello World from else block");
+    }
+
 }
