@@ -7,12 +7,16 @@ fn main() {
     let c:i32=3;
     let d:bool=true;
 
+    //If else Syntax 
+
     if true{
         println!("Hello World from if block");
     }  
     else{
         println!("Hello World from else block");
     }
+
+    //Loop Syntax using Loop keyword
 
     let mut i=0;
     loop{
@@ -25,5 +29,17 @@ fn main() {
             break;
         }
     }
+
+    // Loop Syntax using While keyword
+
+    i=0;
+    while i<6{
+        i+=1;
+        println!("{}",i);
+        if i==10{
+            break;
+        }
+    }
+
 
 }
