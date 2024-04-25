@@ -41,5 +41,10 @@ fn main() {
         }
     }
 
+    //Loop Syntax using For loop
+
+    for i in 0..6{
+        println!("{}",i);
+    }
 
 }
