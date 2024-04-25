@@ -14,4 +14,16 @@ fn main() {
         println!("Hello World from else block");
     }
 
+    let mut i=0;
+    loop{
+        i+=1;
+        if i==6{
+            continue;
+        }
+        println!("{}",i);
+        if i==10{
+            break;
+        }
+    }
+
 }
