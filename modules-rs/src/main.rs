@@ -18,5 +18,16 @@
 mod decode;
 
 fn main(){
-    decode::print_message();
+    // decode::print_message();
+
+    //vectors
+    let mut my_vec=vec![1,23,44 ];
+
+    my_vec.push(2);
+    my_vec.remove(1);
+
+
+
+
+
 }
